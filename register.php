@@ -1,8 +1,8 @@
-<h2>
-    <center>
-        Register
-    </center>
-</h2>
+<link rel = "stylesheet" href = "style.css" />
+<p id="index1">
+    <b><br/> Register </b> 
+</p>
+
 
 
 <form method= "post" action = "member_insert.php" enctype= "multipart/form-data">
