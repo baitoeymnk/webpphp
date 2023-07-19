@@ -5,24 +5,25 @@
     <b><br/> Register </b> 
 </p>
 
-
+<div class = "container">
 <form method= "post" action = "member_insert.php" enctype= "multipart/form-data">
-<center>
+
     Name :
-    <input type="text" name="firstname" class = "input"/> <br/><br/>
+    <input type="text" name="firstname" class = "input"/> </br>
     Fullname :
-    <input type="text" name="lastname" class = "input" /> <br/><br/>
+    <input type="text" name="lastname" class = "input" /> </br>
     Email :
-    <input type="email" name="email" class = "input"/> <br/><br/>
+    <input type="email" name="email" class = "input"/> </br>
     Phone Number :
-    <input type="text" name="phone" class = "input"/> <br/><br/>
+    <input type="text" name="phone" class = "input"/> </br>
     
     Address :
-    <textarea name="address" class = "input"> </textarea> <br/><br/>
+    <textarea name="address" class = "input"> </textarea></br>
     Insert Picture:
-    <input type="file" name="photo" class = "input"/> <br/><br/>
+    <input type="file" name="photo" class = "input"/></br>
     <input type="submit" value="save" class = "button"/>
-<center>
+
 </form>
+</div>
 
 
