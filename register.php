@@ -1,5 +1,3 @@
-
-
 <link  rel = "stylesheet"  href = "styles.css" />
 <p id="index1">
     <b><br/> Register </b> 

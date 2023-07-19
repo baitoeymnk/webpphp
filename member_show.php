@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="styles.css"/>
+<p id="index1">
+    <b><br/> Show Registation <br/></b> 
+</p>
+<div class="center"> 
+
 <?php
 include "connect.php";
 
@@ -9,12 +14,12 @@ if (mysqli_num_rows($result) > 0) {
   // output data of each row
   ?>
   <table class="table">
-    <th> name-lastame </th>
-    <th> email </th>
-    <th> tel. </th>
-    <th> address </th>
-    <th> edit </th>
-    <th> delete </th>
+    <th width = auto> Name </th>
+    <th width = auto> Email </th>
+    <th width = auto> Phone No. </th>
+    <th width = auto> Address </th>
+    <th width = auto> Edit </th>
+    <th width = auto> Delete </th>
 
 
     <?php
@@ -40,3 +45,5 @@ if (mysqli_num_rows($result) > 0) {
 }
 mysqli_close($conn);
 ?>
+
+</div>
