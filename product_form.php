@@ -9,13 +9,13 @@
     Name :
     <input type="text" name="name" class = "input"/> <br/><br/>
     Price :
-    <input type="text" name="price" class = "input"/> 
+    <input type="text" name="price" class = "input"/> <br/><br/>
     Stock :
-    <input type="text" name="stock" class = "input"/> 
+    <input type="text" name="stock" class = "input"/> <br/><br/>
     Description :
-    <textarea name="description" class = "input"> </textarea>
+    <textarea name="description" class = "input"> </textarea><br/><br/>
     Insert Picture:
-    <input type="file" name="photo" class = "input"/>
+    <input type="file" name="photo" class = "input"/><br/><br/>
 
     <input type="submit" value="save" class = "button"/>
     
