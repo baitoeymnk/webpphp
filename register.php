@@ -14,8 +14,6 @@
     <input type="email" name="email" class = "input"/> </br>
     Password :
     <input type="password" name="password" class = "input"/> </br>
-
-
     Phone Number :
     <input type="text" name="phone" class = "input"/> </br>
     

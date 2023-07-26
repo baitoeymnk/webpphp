@@ -7,6 +7,10 @@
 <?php
 include "connect.php";
 
+$filename = $_FILES["photo"]["name"];
+$tempname = $_FILES["photo"]["tmp_name"];
+$folder = "./images/" . $filename;
+
 $sql = "INSERT INTO tbl_member (firstname, lastname, email,password, phone, photo, address)
 VALUES ('$_POST[firstname]', '$_POST[lastname]', '$_POST[email]', '$_POST[password]','$_POST[phone]', '$_POST[photo]', '$_POST[address]')";
  

@@ -1,4 +1,8 @@
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="styles.css"/>
+<p id="index1">
+    <b><br/> Product Show <br/></b> 
+</p>
+<div class="center"> 
 <?php
 include "connect.php";
 

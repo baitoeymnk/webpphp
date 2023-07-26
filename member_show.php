@@ -33,6 +33,7 @@ if (mysqli_num_rows($result) > 0) {
         <td><?php echo"$row[password]"; ?> </td>
         <td><?php echo"$row[phone]"; ?> </td>
         <td><?php echo"$row[address]"; ?> </td>
+        
         <td> <?php echo"<a href ='member_edit.php?id=$row[id]'> edit </a>";?> </td>
         <td> <?php echo"<a href ='member_del.php?id=$row[id]'> delete </a>";?> </td>
     </tr>

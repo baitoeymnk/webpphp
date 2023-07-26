@@ -1,3 +1,9 @@
+<link  rel = "stylesheet"  href = "styles.css" />
+<p id="index1">
+    <b><br/> </b> 
+</p> 
+
+<p id="index2">
 <?php
 include "connect.php";
 
@@ -13,5 +19,6 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 
 ?>
+</p>
 
 
