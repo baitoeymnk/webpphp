@@ -6,6 +6,7 @@ $sql ="UPDATE tbl_product SET
     price='$_POST[price]' ,
     stock='$_POST[stock]', 
     description='$_POST[description]' 
+    photo='$_POST[description]' 
     WHERE id='$_GET[id]' ";
 
 if (mysqli_query($conn,$sql)) {
