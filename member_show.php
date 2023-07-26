@@ -19,6 +19,7 @@ if (mysqli_num_rows($result) > 0) {
     <th width = auto> Password </th>
     <th width = auto> Phone No. </th>
     <th width = auto> Address </th>
+    <th width = auto> Photo </th>
     <th width = auto> Edit </th>
     <th width = auto> Delete </th>
 

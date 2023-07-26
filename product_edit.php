@@ -16,6 +16,7 @@ $row = mysqli_fetch_assoc($result) ;
     Stock: <input type="int" name="stock" value="<?php echo $row[stock]; ?>" class = "input"/><br /><br />
     Description: <input type="text" name="description" value="<?php echo $row[description]; ?>" class = "input"/><br /><br />
     Photo: <input type="file" name="photo" class = "input" /> <?php echo $row[photo]; ?><br /><br />
+    <img src="./images/<?php echo $row[photo] ?>" width="200px" /></br>
     <input type="submit" value="update" class = "button"/>
 
 </form>
