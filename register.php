@@ -12,6 +12,10 @@
     <input type="text" name="lastname" class = "input" /> </br>
     Email :
     <input type="email" name="email" class = "input"/> </br>
+    Password :
+    <input type="password" name="password" class = "input"/> </br>
+
+
     Phone Number :
     <input type="text" name="phone" class = "input"/> </br>
     
@@ -24,4 +28,6 @@
 </form>
 </div>
 
-
+<p id="index8"> 
+    <a href= 'mainweb.php'> Back to main menu </a> 
+</p>

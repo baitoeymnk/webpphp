@@ -16,6 +16,7 @@ if (mysqli_num_rows($result) > 0) {
   <table class="table">
     <th width = auto> Name </th>
     <th width = auto> Email </th>
+    <th width = auto> Password </th>
     <th width = auto> Phone No. </th>
     <th width = auto> Address </th>
     <th width = auto> Edit </th>
@@ -29,6 +30,7 @@ if (mysqli_num_rows($result) > 0) {
       <tr>
         <td><?php echo"$row[firstname] $row[lastname]"; ?> </td>
         <td><?php echo"$row[email]"; ?> </td>
+        <td><?php echo"$row[password]"; ?> </td>
         <td><?php echo"$row[phone]"; ?> </td>
         <td><?php echo"$row[address]"; ?> </td>
         <td> <?php echo"<a href ='member_edit.php?id=$row[id]'> edit </a>";?> </td>

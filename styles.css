@@ -36,9 +36,9 @@ body {
     margin: 8px 10px;
     box-sizing: border-box;
     border-radius: 8px;
-    border: none;
-
+    
 }
+
 
 .button {
     width: 20%;
@@ -87,14 +87,14 @@ td {
 }
 
 .img {
-    border: 5px solid pink;
+    border: 5px solid rgb(174, 215, 240);
     border-radius: 20px;
     text-align: center;
 }
 
 .img1 {
     text-align: center;
-    border: 5px solid pink;
+    border: 5px solid rgb(224, 192, 255);
     border-radius: 20px;
     display: block;
     margin-left: auto;
